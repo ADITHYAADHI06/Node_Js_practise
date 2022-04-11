@@ -42,6 +42,10 @@ const fs = require("fs");
 //   console.log("dir created");
 // });
 
-fs.mkdir("RoutingURL", (err) => {
+// fs.mkdir("RoutingURL", (err) => {
+//   console.log("dir created");
+// });
+
+fs.mkdir("WeatherApiproject", (err) => {
   console.log("dir created");
 });
